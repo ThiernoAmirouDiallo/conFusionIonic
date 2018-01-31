@@ -5,6 +5,7 @@ import { Comment } from '../../shared/comment';
 import { FavoriteProvider } from '../../providers/favorite/favorite';
 
 
+
 /**
  * Generated class for the DishdetailPage page.
  *
