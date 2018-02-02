@@ -6,8 +6,6 @@ import { FavoriteProvider } from '../../providers/favorite/favorite';
 import { CommentPage } from '../comment/comment';
 import { ModalController } from 'ionic-angular/components/modal/modal-controller';
 
-
-
 /**
  * Generated class for the DishdetailPage page.
  *
