@@ -32,7 +32,7 @@ export class MyApp {
       { title: 'About Us', icon: 'information-circle', component: AboutPage },
       { title: 'Menu', icon: 'list-box', component: MenuPage },
       { title: 'Contact Us', icon: 'contact', component: ContactPage },
-      { title: 'My Favorites', icon: 'md-restaurant', component: FavoritesPage },
+      { title: 'My Favorites', icon: 'heart', component: FavoritesPage },
     ];
 
   }

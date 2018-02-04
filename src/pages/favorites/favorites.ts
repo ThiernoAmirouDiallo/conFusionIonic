@@ -29,7 +29,11 @@ export class FavoritesPage implements OnInit {
 
   ngOnInit() {
     this.favoriteservice.getFavorites()
-      .subscribe(favorites => this.favorites = favorites,
+      .subscribe(favorites => {
+        this.favorites = favorites;
+        console.log('favorites got ' + JSON.stringify(this.favorites));
+      }
+      ,
       errmess => this.errMess = errmess);
   }
 
