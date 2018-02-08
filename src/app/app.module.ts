@@ -17,6 +17,7 @@ import { baseURL } from '../shared/baseurl';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { LocalNotifications } from '@ionic-native/local-notifications';
 import { DishProvider } from '../providers/dish/dish';
 import { LeaderProvider } from '../providers/leader/leader';
 import { PromotionProvider } from '../providers/promotion/promotion';
@@ -70,7 +71,8 @@ import { CommentPage } from '../pages/comment/comment';
     ProcessHttpmsgProvider,
     { provide: 'BaseURL', useValue: baseURL },
     FavoriteProvider,
-    FavoriteProvider
+    FavoriteProvider,
+    LocalNotifications
   ]
 })
 export class AppModule {}
