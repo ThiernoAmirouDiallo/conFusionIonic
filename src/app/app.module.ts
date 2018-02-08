@@ -11,6 +11,7 @@ import { MenuPage } from '../pages/menu/menu';
 import { ContactPage } from '../pages/contact/contact';
 import { DishdetailPage } from '../pages/dishdetail/dishdetail';
 import { IonicStorageModule } from '@ionic/storage';
+import { EmailComposer } from '@ionic-native/email-composer';
 
 import { baseURL } from '../shared/baseurl';
 
@@ -72,7 +73,8 @@ import { CommentPage } from '../pages/comment/comment';
     { provide: 'BaseURL', useValue: baseURL },
     FavoriteProvider,
     FavoriteProvider,
-    LocalNotifications
+    LocalNotifications,
+    EmailComposer
   ]
 })
 export class AppModule {}
