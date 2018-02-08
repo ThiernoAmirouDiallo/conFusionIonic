@@ -12,6 +12,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { DishdetailPage } from '../pages/dishdetail/dishdetail';
 import { IonicStorageModule } from '@ionic/storage';
 import { EmailComposer } from '@ionic-native/email-composer';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 import { baseURL } from '../shared/baseurl';
 
@@ -74,7 +75,8 @@ import { CommentPage } from '../pages/comment/comment';
     FavoriteProvider,
     FavoriteProvider,
     LocalNotifications,
-    EmailComposer
+    EmailComposer,
+    SocialSharing
   ]
 })
 export class AppModule {}
